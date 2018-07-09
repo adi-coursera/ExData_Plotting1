@@ -8,5 +8,5 @@ data$Voltage <- data[,as.numeric(Voltage)]
 data$Global_intensity <- data[,as.numeric(Global_intensity)]
 png()
 with(data,plot(datetime,Global_intensity,type="n"))
-with(data,lines(datetime,Global_intensity))
-dev.off()
+with(data,lines(datetime,Global_intensity,type = "n"))
+dev.off(p)
