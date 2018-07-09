@@ -112,3 +112,8 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+STUDENT README:
+
+I used the website https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/axis.POSIXct.html to figure out how to manipulate the Date and Time columns of the dataset into a plottable column in POSIXct format.
+ I also used http://www.sthda.com/english/wiki/add-legends-to-plots-in-r-software-the-easiest-way to put in the legend in plot 3.
+
